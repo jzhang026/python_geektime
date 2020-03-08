@@ -2,3 +2,4 @@ venv
 venv_bb
 .idea
 .vscode
+.DS_Store
