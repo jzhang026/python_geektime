@@ -8,6 +8,7 @@ class People(object):
 # 子类
 class Man(People):
     def __init__(self,name):
+        super().__init__()
         self.name = name
     def work(self):
         print('work hard')
